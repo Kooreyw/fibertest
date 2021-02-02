@@ -5,7 +5,7 @@ int print_hello(int a, int b){
 	return c;
 }
 int main(void){
-	print_hello();
+	print_hello(1,2);
 	printf("End\n");
 	return 0;
 }
